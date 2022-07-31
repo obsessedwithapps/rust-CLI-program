@@ -91,7 +91,7 @@ impl Config { //This implements methods to our Config struct
 
 }
 
-pub fn read(config: Config) -> Result<(), Box<dyn Error>> { //This the read function that reads the contents
+pub fn read(config: Config) -> Result<(), Box<dyn Error>> { //This is the read function that reads the contents
 
     let file_contents = fs::read_to_string(config.filename)?;
 
