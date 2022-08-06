@@ -1,3 +1,3 @@
-# rust-commandline-program
+# rust-CLI-program
 
 This is a command line program written in Rust, based off the official book.
