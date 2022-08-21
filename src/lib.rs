@@ -72,9 +72,9 @@ pub struct Config { //This is our config struct
 
 }
 
-impl Config { //This implements methods to our Config struct
+impl Config { //This makes implementations to our Config struct
 
-    pub fn parse_config(args: &[String]) -> Result<Config, &'static str> { //This is our parse_config method
+    pub fn parse_config(args: &[String]) -> Result<Config, &'static str> { //This is our parse_config function
 
         if args.len() < 3 { 
             return Err("You don't have enough arguments. Required: 3"); //This returns an error is the arguments for our input is less than 3
